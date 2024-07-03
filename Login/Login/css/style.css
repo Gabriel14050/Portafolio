@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 768px) {
+    .main {
+        background-image: url('https://img.freepik.com/fotos-premium/fondos-pantalla-iphone-android-mejores-fondos-pantalla-alta-definicion-iphone-android-fondos-pantalla-iphone-iphone-android-fondos-pantalla-iphone-celular_863013-28095.jpg');
+    }
+    .form {
+       align-items: center;
+       margin-top: 140px;
+       margin-right: -85px;
+        
+    }
+}
+
+@media (max-width: 390px) {
+    .main {
+        background-image: url('https://img.freepik.com/fotos-premium/fondos-pantalla-iphone-android-mejores-fondos-pantalla-alta-definicion-iphone-android-fondos-pantalla-iphone-iphone-android-fondos-pantalla-iphone-celular_863013-28095.jpg');
+    }
+    .form {
+       margin-top: 140px;
+       margin-right: -85px;
+        
+    }
+}
+
+

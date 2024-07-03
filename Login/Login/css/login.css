@@ -1,0 +1,317 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.main {
+    width: 100%;
+    background-image: url('https://www.educaciontrespuntocero.com/wp-content/uploads/2020/04/mejores-bancos-de-imagenes-gratis.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+    z-index: 100;
+}
+
+.icon {
+    width: 200px;
+    height: 70px;
+}
+
+.logo {
+    color: #333;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.menu {
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+ul li {
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #333;
+}
+
+.search {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    margin-right: 40px; /* Separación ajustada entre el campo de búsqueda y el botón */
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 180px;
+    height: 32px;
+    background: rgba(255, 204, 153, 0.8); /* Color de fondo para el campo de búsqueda */
+    border: 1px solid #ffcc99; /* Borde del campo de búsqueda */
+    color: #333; /* Color del texto del campo de búsqueda */
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 3px;
+}
+
+.btn {
+    width: 80px;
+    height: 32px;
+    background: #ffcc99; /* Color de fondo del botón */
+    border: 2px solid #ffcc99; /* Borde del botón */
+    color: #333; /* Color del texto del botón */
+    font-size: 14px;
+    border-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #000000; /* Color de fondo del botón en hover */
+    color: #ffcc99; /* Color del texto del botón en hover */
+}
+
+.btn:focus,
+.srch:focus {
+    outline: none;
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    color: #333;
+    position: relative;
+    padding: 20px;
+    padding-bottom: 80px;
+    right: 30%;
+}
+
+.content .par {
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    margin-top: 8%;
+    letter-spacing: 1px;
+}
+
+.content .cn {
+    width: 140px;
+    height: 32px;
+    background: #ffcc99;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: #333;
+    transition: .3s ease;
+}
+
+.cn:hover {
+    background-color: #ffcc99;
+}
+
+.content span {
+    color: #ffcc99;
+    font-size: 60px;
+}
+
+.form {
+    width: 280px;
+    height: auto;
+    background: rgba(255, 204, 153, 0.8); /* Color de fondo para el formulario */
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.form h2 {
+    text-align: center;
+    color: #ffcc99; /* Color del encabezado del formulario */
+    font-size: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 6px;
+}
+
+.form input {
+    width: 100%;
+    height: 28px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000; /* Borde inferior del campo de entrada */
+    color: #333; /* Color del texto del campo de entrada */
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: 16px;
+    font-family: sans-serif;
+    padding-left: 4px;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #000000; /* Color del texto de marcador de posición */
+}
+
+.btnn {
+    width: 100%;
+    height: 32px;
+    background: #000000; /* Color de fondo del botón secundario */
+    border: none;
+    margin-top: 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #333; /* Color del texto del botón secundario */
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: #000000; /* Color de fondo del botón secundario en hover */
+    color: #000000; /* Color del texto del botón secundario en hover */
+}
+
+.btnn a {
+    text-decoration: none;
+    color: #333; /* Color del texto del botón secundario */
+    font-weight: bold;
+}
+
+.form .link {
+    font-size: 14px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: #000000; /* Color del enlace en el formulario */
+}
+
+.liw {
+    padding-top: 12px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.icons ion-icon {
+    color: #000000;
+    font-size: 26px;
+    padding-left: 12px;
+    padding-top: 4px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+    color: #000000;
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 1024px) {
+    
+    .form {
+       align-items: center;
+       
+       margin-top: 140px;
+       margin-right: -85px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        background-image: url('https://img.freepik.com/fotos-premium/fondos-pantalla-iphone-android-mejores-fondos-pantalla-alta-definicion-iphone-android-fondos-pantalla-iphone-iphone-android-fondos-pantalla-iphone-celular_863013-28095.jpg');
+    }
+    .form {
+       align-items: center;
+       margin-top: 140px;
+       margin-right: -85px;
+        
+    }
+}
+
+@media (max-width: 390px) {
+    .main {
+        background-image: url('https://img.freepik.com/fotos-premium/fondos-pantalla-iphone-android-mejores-fondos-pantalla-alta-definicion-iphone-android-fondos-pantalla-iphone-iphone-android-fondos-pantalla-iphone-celular_863013-28095.jpg');
+    }
+    .form {
+       margin-top: 140px;
+       margin-right: -85px;
+        
+    }
+}
